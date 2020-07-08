@@ -1,0 +1,134 @@
+/* STYLES */
+html, body {
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  display: block;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+  font-size: 5rem;
+  margin: 100px auto 0 auto;
+  color: #e36387;
+}
+
+h3 {
+  font-weight: 300;
+  margin: 0 auto;
+  color: #e36387;
+  font-size: 1.5rem;
+}
+
+h2 {
+  color: #e36387;
+  font-size: 2rem;
+}
+
+p {
+  color: #40514E;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  margin: 50px auto;
+  border-width: 10px;
+  width: 5%;
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #ddf3f5;
+  height: 100%;
+}
+
+.top-cloud {
+  position: relative;
+  left: 20%;
+  top: 20px;
+  margin: 25px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  margin: 25px;
+}
+
+.city {
+  margin-top: 76px;
+  width: 50%;
+}
+
+.middle-container {
+  padding: 40px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.python-img {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+.java-img {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+
+.btn {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: #f2aaaa;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: #e36387;
+}
+
+.bottom-container {
+  background-color: #f2aaaa;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.footer-link {
+  margin: auto 20px;
+  color: #e36387;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+}
